@@ -1,0 +1,187 @@
+:root {
+  --lavender-blush: #f7ebecff;
+  --thistle: #ddbdd5ff;
+  --rose-quartz: #ac9fbbff;
+  --paynes-gray: #59656fff;
+  --raisin-black: #1d1e2cff;
+
+  --columbia-blue: #cae5ffff;
+  --non-photo-blue: #acedffff;
+  --jordy-blue: #89bbfeff;
+  --glaucous: #6f8ab7ff;
+  --davys-gray: #615d6cff;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  height: 50px;
+  background-color: var(--columbia-blue);
+  padding: 8px 48px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 30px;
+}
+
+.header > * {
+  max-width: 300px;
+}
+
+#title {
+  font-family: "Pacifico", sans-serif;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.linkcontainer {
+  display: flex;
+  gap: 8px;
+}
+
+.top {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8px 48px;
+  background-color: var(--columbia-blue);
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: rgb(66, 66, 66);
+}
+
+#pug {
+  height: auto;
+  width: 300px;
+  align-self: center;
+}
+
+#bigtag {
+  font-family: "Pacifico", sans-serif;
+  margin: 16px 0;
+  font-size: 48px;
+  color: black;
+}
+
+.petCoco {
+  background-color: var(--glaucous);
+  color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin: 20px 0px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+#awesomeTitle {
+  text-align: center;
+  font-family: "Pacifico", sans-serif;
+  margin: 0;
+  padding: 15px;
+  font-size: 36px;
+  color: black;
+}
+
+.middle {
+  background-color: var(--davys-gray);
+  padding: 20px 0px;
+}
+
+.directimage {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+.imagecontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.text {
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 16px;
+}
+
+.bottom {
+  background-color: var(--glaucous);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  background-image: url("imgs/winter.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.quoteholder {
+  margin: 0px 24px;
+}
+.quote {
+  margin: 0;
+  font-size: 36px;
+  font-style: italic;
+  font-family: "Pacifico", sans-serif;
+  color: white;
+}
+
+.credit {
+  text-align: end;
+  color: white;
+  font-size: 24px;
+}
+
+.signUp {
+  background-color: var(--jordy-blue);
+  padding: 40px;
+}
+
+.signUpHolder {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--non-photo-blue);
+  padding: 48px 48px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--glaucous);
+}
+
+.ctaheader {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.ctadescription {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.signupButton {
+  font-family: "Kumbh Sans", sans-serif;
+  border-radius: 8px;
+  padding: 0px 24px;
+  font-size: 16px;
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--davys-gray);
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 10px;
+  color: black;
+}
